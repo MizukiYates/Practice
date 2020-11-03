@@ -30,3 +30,32 @@ fill(255);
 ellipse(x,y,20,20);
 }
 }
+
+
+
+
+2. A beginning programmer made a mistake with a very similar mover program. The program crashed as soon as the
+program was run. What did the error message say? How would it be fixed?
+Mover [] dots;
+void setup(){
+size(300,300);
+background(0);
+dots = new Mover[100];
+}
+void draw(){
+for(int i = 0; i < dots.length;i++){
+dots[i].move();
+dots[i].show();
+}
+}
+class Mover{ /* code not shown */}
+
+
+NullPointerException. In seteup the array is just defined as having 100 empty spaces to put up to 100 movers in. So when it tries to run move or show it doesn't actually 
+have anything that it is showing or moving. To fix you would need to change line 43 to say:
+dots = new Mover[10];
+for(int i = 0; i < dots.length;i++)
+{
+dots[i] = new Mover();
+}
+}
