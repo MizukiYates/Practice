@@ -1,0 +1,62 @@
+Encapsulation 
+Name: Mizuki
+Encapsulation means hiding the details of a class by making the data private and
+forcing client programmers to use public "get" and "set" methods (called accessors and
+mutators) to access and modify the data.
+1. Fill in the blanks with public or private:
+class Widget
+{
+ private double dNum;
+ private String sWord;
+
+ public Widget()
+ {
+ dNum = 2.5;
+ sWord = "Hello";
+ }
+ public double sum()
+ {
+ double dTemp = dNum + sWord.length();
+ return dTemp;
+ }
+ //and lots more java
+2. Circle the one variable that is NOT a data member, and should not be declared as public or
+private.
+On line 7: class Widget
+3. Write accessor and mutator methods for the double member variable:
+
+public double getNum()
+{
+ retrun dNum ;
+}
+public double setNum( (double)x_ )
+{
+ dNum = x_;
+}
+
+4. Write accessor and mutator methods for the String member variable 
+
+public string getWord()
+{
+ retrun sWord ;
+}
+public string getWord()
+{
+ sWord = "Hi!";
+}
+
+5. Create an instance of the Widget class named Bob. Use the set methods to set Bob's dNum
+to 5.5 and Bob's sWord to be "Hi!".
+
+6. Create a second instance of the Widget class named Sue. Use the get and set methods to
+set Sue's member variables to the same values as Bob's.
+
+Widget bob, sue;
+public void setup()
+{
+  bob = new Widget();
+  sue = new Widget();
+  bob.dNum(100);
+  sue.dNum(100);
+  line(bob.getNum(), bob.getWord(), sue.getNum(), sue.getWord());
+}
