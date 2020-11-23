@@ -1,0 +1,83 @@
+True/False Highlight the correct answer
+
+True/False 1. Constructors are never inherited.
+
+True
+
+True/False 2. If you write a method in the derived (sub) class that has the same name, return type and arguments as a method in
+the base (super) class, you are "overriding" the method of the base (super) class.
+
+True
+
+True/False 3. pets[3].getSize() == 0
+
+False
+
+True/False 4. System.out.println(Romulus.getLegs()); will cause an exception.
+
+True
+
+True/False 5. System.out.println(pets[1].getLegs()); will cause an exception.
+
+false
+
+True/False 6. System.out.println(ScoobyDoo.getLegs()); will cause an exception.
+
+true
+
+True/False 7. System.out.println(JLosDog.getLegs()); will cause an exception.
+
+true
+
+True/False 8. System.out.println(Morris.getLegs()); will cause an exception.
+
+true
+
+True/False 9. System.out.println(JLosDog.getLicense()); will display "1111".
+
+false
+
+True/False 10. System.out.println(Morris.setLicense(3333)); will cause an exception.
+
+true
+
+True/False 11. The Dog class overrides the Wolf class getLegs() method.
+
+true
+
+True/False 12. Pet[] pets = new Pet[5]; will cause an exception.
+
+false
+
+True/False 13. Dog pete = new Pet(); will cause an exception.
+
+false
+
+True/False 14 . Pet pete = new Dog(); will cause an exception.
+
+false
+
+True/False 15 . The Dog class has 3 accessor methods (including inherited methods).
+
+false
+
+True/False 16 . The Cat class has 1 mutator methods (including inherited methods).
+
+false
+
+True/False 17 . Keeping a Wolf as a Pet is a good idea.
+
+
+
+True/False 18 . System.out.println(pets[nI].getSize() + ", " +pets[nI].speak());is an example of
+polymorphism.
+
+true
+
+True/False 19 . Romulus instanceof Pet
+
+false
+
+True/False 20 . Morris instanceof Wolf
+
+false
